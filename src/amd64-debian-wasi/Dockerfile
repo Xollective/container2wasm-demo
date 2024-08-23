@@ -1,2 +1,2 @@
 FROM debian:sid-slim
-RUN apt-get update && apt-get install -y curl
+RUN apt-get update && apt-get install -y curl wget unzip
